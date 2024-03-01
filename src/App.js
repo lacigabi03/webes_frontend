@@ -106,7 +106,7 @@ class App extends Component {
     ||------------------------------------------ // K E R E S É S E K \\ ------------------------------------------||
     ||-------------------------------------------------------------------------------------------------------------||
 */} 
-    {showAdminBoard && (
+    
         <NavDropdown title="Keresések" id="collasible-nav-dropdown">
 
         <NavDropdown.Item href="/Varoskeres">
@@ -121,7 +121,7 @@ class App extends Component {
           Országok keresése
         </NavDropdown.Item>
       </NavDropdown>
-      )}
+      
       
 
 
